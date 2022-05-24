@@ -197,6 +197,10 @@ input {
   .desktopView {
     display: none;
   }
+  .header-1{
+    font-size: small;
+    text-align-last: center;
+  }
 
 }
 
