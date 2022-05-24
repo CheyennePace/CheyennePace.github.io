@@ -211,32 +211,6 @@ li {
   padding-top: 5%;
 }
 
-/*
-.but {
-  border: 0;
-    outline: none;
-    border-radius: 0;
-    padding: 9px 26px;
-    font-size: 17px;
-    padding-right: 45px;
-    text-transform: uppercase;
-    background: #ffffff;
-    color: #000000;
-    -webkit-transition: all 0.5s ease;
-    transition: all 0.5s ease;
-    -webkit-appearance: none;
-}
- 
- .but:active {
-  color: #666;
-  box-shadow: inset 4px 4px 12px #a09f9f,
-              inset -4px -4px 12px #6d6d6d;
- }
-
- #rows{
-   display:flex;
- }
- */
 
 /*mobileView*/
 @media (max-width: 600px) {
@@ -252,6 +226,9 @@ li {
 
   #sign {
     padding-right: 9%;
+  }
+  .text{
+    text-align: center;
   }
 
 
