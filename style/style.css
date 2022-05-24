@@ -12,7 +12,7 @@
   background-color: #24ADFD;
   color: white;
   font-size: large;
-  text-align-last: center;
+  text-align: center;
 }
 
 .logo {
@@ -40,13 +40,6 @@
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
 }
 
-@media (max-width: 575.98px) {
-  .nav-link {
-    padding: 0.5%;
-    font-size: 10px;
-  }
-
-}
 
 
 li {
@@ -155,6 +148,11 @@ input {
 }
 
 @media (max-width: 600px) {
+  .nav-link {
+    padding: 0.5%;
+    font-size: 10px;
+  }
+
   .listnavDesktop {
     display: none;
 
@@ -199,7 +197,22 @@ input {
   }
   .header-1{
     font-size: small;
-    text-align-last: center;
+    text-align: center;
+  }
+  .container-4 .box:hover .content {
+    transform: translate(0, 3.5rem);
+  }
+
+  .container-4 .box:hover .imgBox {
+    transform: translate(0, -3.5rem);
+  }
+  .summer_trends {
+    background-color: #24ADFD;
+    color: white;
+    font-size: 15px;
+    text-align: center;
+    margin-top: 1%;
+  
   }
 
 }
@@ -216,7 +229,7 @@ input {
   background-color: #24ADFD;
   color: white;
   font-size: 30px;
-  text-align-last: center;
+  text-align: center;
   margin-top: 1%;
 
 }
@@ -339,15 +352,7 @@ body {
   letter-spacing: 2px;
 }
 
-@media (max-width: 600px) {
-  .container-4 .box:hover .content {
-    transform: translate(0, 3.5rem);
-  }
 
-  .container-4 .box:hover .imgBox {
-    transform: translate(0, -3.5rem);
-  }
-}
 
 /*new*/
 .card-deck {
